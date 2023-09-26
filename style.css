@@ -1,0 +1,194 @@
+body{
+    background-image: url(Rudra.jpg);
+}
+.container {
+    /* background-color: blue; */
+    color: white;
+    /* border: 8px solid red; */
+    border-radius: 30px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this line to create space between elements */
+}
+.one{
+    margin-right: 20px;
+}
+
+.head > .one {
+    /* Remove text-align: right; and display: inline; */
+}
+
+h1 {
+    /* Keep display: inline; for the heading */
+    margin-right: 20px;
+    margin-left: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 3px;
+    margin: 0;
+    /* Add flex property to push the ul to the right */
+    display: flex;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+li > a {
+    color: white;
+    font-size: 23px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    /* background-color: blue; */
+    /* border: 8px solid red; */
+    border-radius: 30px;
+    padding: 36px;
+}
+.two > h2{
+    margin-right: 6px;
+}
+.vishnu{
+    height: 240px;
+    width: auto;
+    margin-left: 60px;
+}
+.two>.img>img{
+    border: 3px solid green;
+    border-radius: 3px;
+}
+.img{
+    margin-left: 30px;
+}
+.img > p{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.man > button{
+    border: 4px solid green;
+    border-radius: 32px;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+.man > h2,p{
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.three{
+    display: flex;
+    height: 300px;
+    /* background-color: white; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+}
+.get{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-style: italic;
+}
+.another{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    /* border: 3px solid green; */
+    margin-top: 10px;
+}
+/* .another> .on>{
+    display: flex;
+    flex-direction: column;
+} */
+.on{
+    margin-left: 25px;
+
+}
+/* .on>div>img{
+    height: ;
+} */
+.another> .on> div> img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid blue;
+    align-self: center;
+    margin: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+.four, .five{
+    /* background-color: lightgray ; */
+    /* border: 3px solid green; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fix{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.five_inside{
+    border: 5px solid blue;
+    background-color: blue;
+    border-radius: 22px;
+    color: white;
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.five_inside > div > button{
+    /* align-self: flex-end;
+    justify-self:flex-end; */
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    width: 95px;
+
+}
+.five_inside > div > h5{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.final{
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
